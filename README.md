@@ -35,7 +35,7 @@ In this project, we build a simple NOT TODO list application for keeping track o
   <p align="center">
     <br />
     <br />
-    <a href="https://phillipug.github.io/not-todo-list/">View Demo</a>
+    <a href="https://safaerden.github.io/Not-Todo-List/">View Demo</a>
     ·
     <a href="https://github.com/PhillipUg/not-todo-list/issues">Report Bug</a>
     ·
