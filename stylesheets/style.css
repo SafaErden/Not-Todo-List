@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.7), rgba(251, 251, 253, 0.9)),
+    url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.outline {
+  outline: none;
+}
+
+.arrow {
+  font-size: 1.5rem !important;
+}
+
+.wrap {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.select {
+  width: 90px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid gray !important;
+}
+
+.list-group {
+  overflow-x: scroll;
+  width: 80%;
+  scrollbar-width: none;
+}
+
+.list-group-item {
+	min-width: 350px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #ccc;
+}
+
+.list-group::-webkit-scrollbar {
+  display: none;
+}
+
+.fa-times-circle {
+  position: absolute;
+  top: 34%;
+  right: 5%;
+}
+
+.item-icons {
+  font-size: 22px;
+}
+
+.fa-chevron-circle-left {
+  color: grey;
+}
+
+.fa-plus-square:hover,
+.fa-pencil:hover {
+  color: grey;
+}
+
+.togglerTitle {
+  cursor: pointer;
+}
+
+.togglerTitle:hover {
+  text-decoration: underline;
+}
+
+#items {
+  height: 80%;
+  overflow-y: auto;
+  padding: 20px 20px;
+}
+
+nav {
+  height: 49%;
+}
+
+main {
+  height: 49%;
+}
