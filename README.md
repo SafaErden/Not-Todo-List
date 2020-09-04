@@ -30,7 +30,8 @@ In this project, we build a simple NOT TODO list application for keeping track o
 
 This project's purpose is to practice Javascript. Its built with ES6 while keeping in mind concepts like OOP, Factory Functions and the Module Pattern.
 
-![Product Name Screen Shot][product-screenshot]
+![screenshot](./dist/images/todo.png)
+
 <br>
 <br>
 
