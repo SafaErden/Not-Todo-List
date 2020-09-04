@@ -26,7 +26,7 @@ In this project, we build a simple NOT TODO list application for keeping track o
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/PhillipUg/not-todo-list">
+  <a href="https://safaerden.github.io/Not-Todo-List/">
     <img src="dist/images/not-todo.jpg" alt="Logo" width="200" height="150">
   </a>
 
