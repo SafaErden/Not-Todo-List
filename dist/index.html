@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container border d-flex align-items-center justify-content-center text-center flex-column">
+    <nav class="w-100 text-center p-4 border-bottom mb-3">
+      <h1 class="title display-3"><span class="text-danger">NOT</span> TODO<span class="text-danger">!</span></h1>
+      <p class="title h4 mt-2 mb-5">A list of things to avoid</p>
+
+      <form action="" class="mb-3">
+        <input type="text"
+          class="border-top-0 border-right-0 border-left-0 border-bottom outline border-dark bg-transparent"
+          id="project" placeholder="Project Title">
+        <i class="fa fa-plus-square arrow" aria-hidden="true" id="create-project"></i>
+      </form>
+      <div class="d-flex align-items-center justify-content-around">
+        <i class="fa fa-chevron-circle-left arrow" aria-hidden="true" id="slide-left"></i>
+        <ul class="list-group list-group-horizontal">
+
+        </ul>
+        <i class="fa fa-chevron-circle-right arrow" aria-hidden="true" id="slide-right"></i>
+      </div>
+    </nav>
+    <main class="d-flex flex-column w-75">
+      <div class="border-0 w-100  d-none justify-content-center  p-2 my-1 rounded" id="form">
+        <form action="" class="mb-3 wrap d-flex" id="itemForm">
+          <input type="text"
+            class="border-top-0 border-right-0 border-left-0 border-bottom outline border-dark mr-1 bg-transparent"
+            placeholder="Title" size="10">
+          <input type="text"
+            class="border-top-0 border-right-0 border-left-0 border-bottom outline border-dark mr-1 bg-transparent"
+            placeholder="Description" size="10">
+          <input type="date"
+            class="border-top-0 border-right-0 border-left-0 border-bottom outline border-dark mr-1 bg-transparent">
+          <select class="form-control form-control-sm select text-dark">
+            <option selected="true" disabled="disabled" class="text-white">Priority</option>
+            <option class="bg-danger text-white" value="high">High</option>
+            <option class="bg-warning text-white" value="medium">Medium</option>
+            <option class="bg-success text-white" value="low">Low</option>
+          </select>
+        </form>
+        <div class="d-flex ml-2 mt-1">
+          <i class="fa fa-plus-square arrow" aria-hidden="true" id="projectItem"></i>
+          <i class="fa fa-pencil-square arrow d-none" aria-hidden="true" id="projectItem2"></i>
+        </div>
+      </div>
+      <div id="items">
+      </div>
+    </main>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
